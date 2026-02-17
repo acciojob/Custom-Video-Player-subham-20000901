@@ -16,7 +16,6 @@ function togglePlay(){
 }
 
 
-
 function updateBtn(){
 	const icon = video.paused ? '►' : '❚ ❚';
 	toggle.textContent = icon;
